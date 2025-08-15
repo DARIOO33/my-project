@@ -408,7 +408,7 @@ export default function Home() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black">
               Questions sur <span className="text-green-600">nos tarifs</span>
             </h2>
             <p className="text-xl text-gray-600">
