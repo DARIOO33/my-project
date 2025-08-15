@@ -111,7 +111,7 @@ export default function Services() {
             <span className="inline-block bg-green-100 text-green-700 px-4 py-1 rounded-full text-sm font-semibold mb-4">
               Nos services
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl text-black md:text-4xl font-bold mb-4">
               Des solutions <span className="text-green-700">clé en main</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -137,7 +137,7 @@ export default function Services() {
                     {service.features.map((feature, i) => (
                       <li key={i} className="flex items-start">
                         <CheckBadgeIcon className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
-                        <span>{feature}</span>
+                        <span className='text-black'>{feature}</span>
                       </li>
                     ))}
                   </ul>
