@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white`}
       >
         <div className="bg-green-800 text-white font-semibold text-md py-4 px-4 text-center">
   🚚 Service disponible en Île-de-France et ses alentours</div>
