@@ -11,9 +11,9 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               {['facebook', 'twitter', 'instagram'].map((social) => (
-                <a 
-                  key={social} 
-                  href="#" 
+                <a
+                  key={social}
+                  href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                   aria-label={social}
                 >
@@ -39,8 +39,8 @@ export default function Footer() {
                 ['Devis', '/devis'],
               ].map(([title, path]) => (
                 <li key={title}>
-                  <a 
-                    href={path} 
+                  <a
+                    href={path}
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     {title}
@@ -86,7 +86,14 @@ export default function Footer() {
                   contact@debarraspro.fr
                 </a>
               </p>
-              <p>Ouvert 7j/7 de 8h à 20h</p>
+              <p>Lundi-Vendredi : 8h-19h</p>
+              <p>Samedi : 9h-17h</p>
+              <p>Urgences 7j/7</p>
+
+
+
+
+
             </address>
           </div>
         </div>
