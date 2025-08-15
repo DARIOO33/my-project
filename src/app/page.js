@@ -184,7 +184,7 @@ export default function Home() {
             <span className="inline-block bg-green-100 text-green-700 text-sm font-semibold px-4 py-1 rounded-full mb-4">
               NOS SERVICES
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black">
               Solutions <span className="text-green-600">professionnelles</span>{" "}
               adaptées
             </h2>
@@ -293,7 +293,7 @@ export default function Home() {
                 ></div>
                 <div className="relative z-10 p-8 h-full flex flex-col">
                   <div className={`${service.color} mb-6`}>{service.icon}</div>
-                  <h3 className="text-2xl font-bold mb-3">{service.title}</h3>
+                  <h3 className="text-2xl font-bold mb-3 text-black">{service.title}</h3>
                   <p className="text-gray-600 mb-6">{service.description}</p>
 
                   <ul className="space-y-3 mb-8 flex-grow">
@@ -376,8 +376,8 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-              <div className="text-green-600 text-3xl mb-4">✓</div>
-              <h3 className="text-xl font-bold mb-3">Transparence</h3>
+              <div className="text-green-600 text-3xl mb-4 ">✓</div>
+              <h3 className="text-xl font-bold mb-3 text-black">Transparence</h3>
               <p className="text-gray-600">
                 Devis gratuit sans engagement avec tarification claire avant
                 toute intervention
@@ -385,7 +385,7 @@ export default function Home() {
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
               <div className="text-green-600 text-3xl mb-4">♻</div>
-              <h3 className="text-xl font-bold mb-3">Écologie</h3>
+              <h3 className="text-xl font-bold mb-3 text-black">Écologie</h3>
               <p className="text-gray-600">
                 70% minimum des objets recyclés ou donnés à nos partenaires
                 associatifs
@@ -393,7 +393,7 @@ export default function Home() {
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
               <div className="text-green-600 text-3xl mb-4">⏱</div>
-              <h3 className="text-xl font-bold mb-3">Rapidité</h3>
+              <h3 className="text-xl font-bold mb-3 text-black">Rapidité</h3>
               <p className="text-gray-600">
                 Interventions en 48h maximum après validation du devis
               </p>
