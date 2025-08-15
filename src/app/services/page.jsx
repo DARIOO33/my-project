@@ -131,7 +131,7 @@ export default function Services() {
                       {service.icon}
                     </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-3">{service.title}</h3>
+                  <h3 className="text-2xl font-bold mb-3 text-black">{service.title}</h3>
                   <p className="text-gray-600 mb-6">{service.description}</p>
                   <ul className="space-y-3 mb-8">
                     {service.features.map((feature, i) => (
