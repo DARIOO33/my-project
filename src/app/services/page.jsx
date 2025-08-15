@@ -159,7 +159,7 @@ export default function Services() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl text-black md:text-4xl font-bold mb-4">
               Comment <span className="text-green-700">ça marche</span> ?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -199,7 +199,7 @@ export default function Services() {
                       <div className="hidden md:block absolute -right-12 top-1/2 h-px w-12 bg-gray-200"></div>
                     )}
                   </div>
-                  <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                  <h3 className="text-xl font-bold mb-2 text-black">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
