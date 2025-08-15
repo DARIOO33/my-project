@@ -112,6 +112,8 @@ export default function Devis() {
                         <option value="apartment">Appartement</option>
                         <option value="office">Bureau</option>
                         <option value="cellar">Cave/Grenier</option>
+                        <option value="cellar">Jardin</option>
+                        <option value="cellar">Après chantier</option>
                         <option value="other">Autre</option>
                       </select>
                     </div>
