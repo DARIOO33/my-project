@@ -15,7 +15,7 @@ export default function Contact() {
           <div className="absolute inset-0 bg-gradient-to-r from-green-700 to-green-800 opacity-90"></div>
           <div className="container mx-auto px-4 py-28 text-center relative z-10 text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Nous contacter</h1>
-            <p className="text-xl max-w-3xl mx-auto">Une question ? Un projet ? Notre équipe vous répond sous 24h</p>
+            <p className="text-xl max-w-3xl mx-auto">Une question ? Un projet ? Notre équipe vous répond en 1h</p>
           </div>
         </section>
 
@@ -90,8 +90,8 @@ export default function Contact() {
               <h2 className="text-2xl font-bold mb-6">Nos coordonnées</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
-                 
-                  
+
+
                 </div>
                 <div className="flex items-start">
                   <div className="bg-green-100 p-3 rounded-full mr-4">
@@ -125,7 +125,7 @@ export default function Contact() {
               </div>
 
               {/* Map */}
-             
+
             </div>
           </div>
         </section>
