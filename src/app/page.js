@@ -133,20 +133,20 @@ export default function Home() {
           <div className="space-y-8">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
               <span className="inline-block animate-fadeInUp delay-100">
-                Débarras professionnel
+                Obtenez votre devis
               </span>
               <br className="hidden md:block" />
               <span className="inline-block animate-fadeInUp delay-200">
-                en toute sérénité
+                gratuit en 1 minute
               </span>
             </h1>
 
             <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed animate-fadeInUp delay-300">
-              Un service{" "}
-              <span className="font-semibold text-green-300">clé en main</span>{" "}
-              pour vos besoins de vidage, nettoyage et recyclage avec une
-              approche{" "}
-              <span className="font-semibold text-green-300">écologique</span>
+              Réponse sous 1h {" "}
+              <span className="font-semibold text-green-300">
+                Intervention sous 24h
+              </span>{" "}
+              Devis gratuit & sans engagement{" "}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp delay-400">
@@ -293,7 +293,9 @@ export default function Home() {
                 ></div>
                 <div className="relative z-10 p-8 h-full flex flex-col">
                   <div className={`${service.color} mb-6`}>{service.icon}</div>
-                  <h3 className="text-2xl font-bold mb-3 text-black">{service.title}</h3>
+                  <h3 className="text-2xl font-bold mb-3 text-black">
+                    {service.title}
+                  </h3>
                   <p className="text-gray-600 mb-6">{service.description}</p>
 
                   <ul className="space-y-3 mb-8 flex-grow">
@@ -377,7 +379,9 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
               <div className="text-green-600 text-3xl mb-4 ">✓</div>
-              <h3 className="text-xl font-bold mb-3 text-black">Transparence</h3>
+              <h3 className="text-xl font-bold mb-3 text-black">
+                Transparence
+              </h3>
               <p className="text-gray-600">
                 Devis gratuit sans engagement avec tarification claire avant
                 toute intervention
@@ -401,8 +405,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-    
 
       {/* Pricing FAQ Section */}
       <section className="py-20 bg-gray-50">
