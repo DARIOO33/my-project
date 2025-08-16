@@ -34,7 +34,6 @@ export default function Footer() {
               {[
                 ['Accueil', '/'],
                 ['Services', '/services'],
-                ['Tarifs', '/tarifs'],
                 ['Contact', '/contact'],
                 ['Devis', '/devis'],
               ].map(([title, path]) => (
@@ -77,8 +76,8 @@ export default function Footer() {
             <address className="not-italic text-gray-400 space-y-3">
               <p>12 Rue du Débarras<br />75000 Paris</p>
               <p>
-                <a href="tel:+33123456789" className="hover:text-white transition-colors">
-                  01 23 45 67 89
+                <a href="tel:0749409058" className="hover:text-white transition-colors">
+                  07 49 40 90 58
                 </a>
               </p>
               <p>

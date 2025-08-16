@@ -481,7 +481,7 @@ export default function Home() {
       </section>
 
       {/* Testimonial with Price Reference */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-green-50 p-8 md:p-12 rounded-2xl shadow-sm border border-green-100">
@@ -505,7 +505,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
